@@ -1,4 +1,4 @@
-FROM kriscvregistry.azurecr-test.io/samples/powershell
+FROM mcr.microsoft.com/powershell:latest
 
 RUN apt-get update && apt-get install -y \
     curl \
